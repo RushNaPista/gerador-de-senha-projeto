@@ -19,9 +19,9 @@
         <button id="button" class="button-cta" onclick="generatePassword()" >Gerar Senha</button>
     </main>
 
-    <div id="container-password" class="container-password hide">
+    <div id="container-password" onclick="copyPassword()" class="container-password hide">
         <div class="title">Sua Senha Gerada Foi:</div>
-        <div class="password" class="password"></div>
+        <div id="password" class="password"></div>
         <div class="tooltip">Clique na Senha para Copiar. 👆</div>
     </div>
 
